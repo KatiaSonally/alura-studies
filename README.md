@@ -1,5 +1,5 @@
-# REACT ESCREVENDO COM TYPESCRIPTI AULA 2 ATIVIDADE 6 FEITA - SEMANA21 01/02
-feat: it dynamically renders lists
+# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 2 FEITA - SEMANA21 01/02
+feat: it configures customizations via Props
 
 # Getting Started with Create React App
 
