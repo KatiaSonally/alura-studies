@@ -1,5 +1,5 @@
-# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 5 FEITA - SEMANA21 01/02
-refactor: refactors Lista by creating the Item folder
+# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 7 FEITA - SEMANA21 01/02
+feat: styles the stopwatch and clock
 
 # Getting Started with Create React App
 
