@@ -1,5 +1,5 @@
-# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 2 FEITA - SEMANA21 01/02
-feat: it configures customizations via Props
+# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 5 FEITA - SEMANA21 01/02
+refactor: refactors Lista by creating the Item folder
 
 # Getting Started with Create React App
 
