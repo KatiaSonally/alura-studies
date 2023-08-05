@@ -1,49 +1,20 @@
-# REACT ESCREVENDO COM TYPESCRIPT AULA 4 ATIVIDADE 7 FEITA - SEMANA21 01/02
-feat: styles the stopwatch and clock
+<h2>Aplicação de Organização de Tarefas</h2>
 
-# Getting Started with Create React App
+Criação de uma aplicação na qual vamos: 
+* Adicionar tarefas a executar e o tempo para cada uma, as quais serão enviadas para uma lista;
+* Selecionar na lista qual das tarefa vamos executar - após selecionada, o tempo da tarefa é enviado para o cronômetro;
+* Acionar o cronômetro para acompanhamento.
+* Após a finalização do cronômetro, a tarefa é marcada como concluída e o acesso a ela é retirado.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Objetivo do Projeto:
 
-In the project directory, you can run:
+- Criar um projeto React com Typescript com Create React App
+- Entender conceitos de React como Componentização, Props e State
+- Utilizar o Sass para fazer o CSS mais rápido
+- Evitar sobreposições de CSS com CSS Modules
+- Aprender sobre os hooks useState e useEffect e entender como eles eram usados nos class components
+- Deixar o código mais limpo e documentado com a forma mais atual de se escrever React
+- Desenvolver o código com conceitos de boas práticas como DRY (Don't Repeat Yourself) e SRP (Single Responsibility Principle)
+- Analisar como funciona uma transição/refatoração de um Class component, uma forma antiga, para um Function component, que é uma forma mais atual de se escrever React, entendendo a diferença deles e o motivo do Function component ser priorizado
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
