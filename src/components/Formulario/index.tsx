@@ -14,9 +14,13 @@ class Formulario extends React.Component<{
     adicionarTarefa(evento: React.FormEvent<HTMLFormElement>) {
         evento.preventDefault();
         this.props.setTarefas(tarefasAntigas => [...tarefasAntigas, { ...this.state }])
+        this.setState({
+            tarefa: "",
+            tempo: "00:00"
+        })
     }
 
-    render(): React.ReactNode {
+    render() {
         return(
             <form className={style.novaTarefa} onSubmit={this.adicionarTarefa.bind(this)}>
                 <div className={style.inputContainer}>
@@ -39,7 +43,7 @@ class Formulario extends React.Component<{
                     </label>
                     <input
                         type='time'
-                        step={1}
+                        step='1'
                         name='tempo'
                         value={this.state.tempo}
                         onChange={evento => this.setState({ ...this.state, tempo: evento.target.value })}
@@ -49,9 +53,9 @@ class Formulario extends React.Component<{
                         required
                     />
                 </div>
-                <button type="submit">
+                <Botao type="submit">
                     Adicionar
-                </button>
+                </Botao>
             </form>
         )
     }

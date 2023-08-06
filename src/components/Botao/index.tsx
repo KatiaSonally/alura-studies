@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Botao.module.scss';
 
 class Botao extends React.Component<{
-    children: React.ReactNode; texto: string;
+    children: React.ReactNode; 
     type?: "button" | "submit" | "reset" | undefined
 }> {
   render() {

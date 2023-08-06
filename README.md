@@ -18,3 +18,6 @@ Criação de uma aplicação na qual vamos:
 - Deixar o código mais limpo e documentado com a forma mais atual de se escrever React
 - Desenvolver o código com conceitos de boas práticas como DRY (Don't Repeat Yourself) e SRP (Single Responsibility Principle)
 - Analisar como funciona uma transição/refatoração de um Class component, uma forma antiga, para um Function component, que é uma forma mais atual de se escrever React, entendendo a diferença deles e o motivo do Function component ser priorizado
+
+## Agradecimento
+Um Valeu! especial ao @Vinícius Ribeiro, da Comunidade Code, que deu uma mentoria super valiosa para melhorar meu entendimento do projeto!
