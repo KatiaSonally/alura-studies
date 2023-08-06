@@ -20,4 +20,4 @@ Criação de uma aplicação na qual vamos:
 - Analisar como funciona uma transição/refatoração de um Class component, uma forma antiga, para um Function component, que é uma forma mais atual de se escrever React, entendendo a diferença deles e o motivo do Function component ser priorizado
 
 ## Agradecimento
-Um Valeu! especial ao @Vinícius Ribeiro, da Comunidade Code, que deu uma mentoria super valiosa para melhorar meu entendimento do projeto!
+Um Valeu! especial ao @Vinícius Ribeiro, da Comunidade Code no Discord, que deu uma mentoria super valiosa para melhorar meu entendimento do projeto!
