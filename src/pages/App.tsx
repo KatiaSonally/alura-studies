@@ -24,7 +24,7 @@ function App() {
       tarefasAnteriores.map(tarefa => {
         if(tarefa.id === selecionado.id) {
           return {
-            ... tarefa,
+            ...tarefa,
             selecionado: false,
             completado: true
           }         

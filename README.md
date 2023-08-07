@@ -3,7 +3,7 @@
 Criação de uma aplicação na qual vamos: 
 * Adicionar tarefas a executar e o tempo para cada uma, as quais serão enviadas para uma lista;
 * Selecionar na lista qual das tarefa vamos executar - após selecionada, o tempo da tarefa é enviado para o cronômetro;
-* Acionar o cronômetro para acompanhamento.
+* Acionar o cronômetro para acompanhamento;
 * Após a finalização do cronômetro, a tarefa é marcada como concluída e o acesso a ela é retirado.
 
 ![Alt text](React.gif)
