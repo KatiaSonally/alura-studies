@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Botao from '../Botao';
 import style from './Formulario.module.scss';
 import { ITarefa } from '../../types/tarefa';
-import { v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 interface Props {
         setTarefas: React.Dispatch<React.SetStateAction<ITarefa[]>>
@@ -10,7 +10,7 @@ interface Props {
 
 function Formulario({ setTarefas }: Props) {
     const [tarefa, setTarefa] = useState("");
-    const [tempo, setTempo] = useState("00:00")
+    const [tempo, setTempo] = useState("00:00");
     function adicionarTarefa(evento: React.FormEvent<HTMLFormElement>) {
         evento.preventDefault();
         setTarefas(tarefasAntigas =>
@@ -24,10 +24,11 @@ function Formulario({ setTarefas }: Props) {
                     id: uuidv4()
                 }
             ]
-        );
+        )
         setTarefa("");
         setTempo("00:00");
     }
+
     return (
         <form className={style.novaTarefa} onSubmit={adicionarTarefa}>
             <div className={style.inputContainer}>
@@ -35,26 +36,26 @@ function Formulario({ setTarefas }: Props) {
                     Adicione um novo estudo
                 </label>
                 <input 
-                    type='text'
-                    name='tarefa'
-                    id='tarefa'
+                    type="text"
+                    name="tarefa"
+                    id="tarefa"
                     value={tarefa}
                     onChange={evento => setTarefa(evento.target.value)}
-                    placeholder='O que você quer estudar?'
+                    placeholder="O que você quer estudar?"
                     required
                 />
             </div>
             <div className={style.inputContainer}>
-                <label htmlFor='tempo'>
+                <label htmlFor="tempo">
                     Tempo
                 </label>
                 <input
-                    type='time'
-                    step='1'
-                    name='tempo'
+                    type="time"
+                    step="1"
+                    name="tempo"
                     value={tempo}
                     onChange={evento => setTempo(evento.target.value)}
-                    id='tempo'
+                    id="tempo"
                     min="00:00:00"
                     max="01:30:00"
                     required
